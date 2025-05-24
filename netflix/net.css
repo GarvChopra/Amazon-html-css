@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;;
+  border:border-box;
+}
+.head {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.logo {
+
+    background-image: url("logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 150px;}
+.action {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.sign {
+    height: 35px;
+    width : 75px;
+    background-color: red;
+    color: white;
+    align-items: center;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;}
+.opti { 
+    background-color: black;
+    border-radius: 1px solid white;
+    height: 35px;
+    width: 120px;
+    color: white;
+
+}
+.opti option {
+    color: white;
+    background-color: black;}    
+
+.header1 {
+    height: 720px;
+    background-image: url("header-image.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    
+}
+.text1 {
+    display:block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    
+
+}
+.lines  {
+    font-size: 4rem;
+    font-weight: 900;
+}
+.line2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.line3 {
+    margin-top: 30px;
+    font-size: 1rem;
+
+}
+.input1 {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;}
+.email1 {
+   
+    color: white;
+    height: 60px;
+    width: 370px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 3px;
+   
+}
+.start {
+    height: 60px;
+    width: 200px;
+    background-color:red;
+    font-size: 1.5rem;
+    font-weight: 300;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lower {
+    height: 2123px;
+    width: 2000px;
+    background-color:black ;
+    color: white;
+    
+}
+.trendsec {
+    margin-bottom: 200px;
+    
+}
+.movies {
+    color: white;
+    display: flex;
+    gap: 10px;
+    gap: 10px;
+    margin-left: 200px;
+    margin-top: 20px; }
+
+    
+    
+    
+
+
+.trend {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    padding-left: 200px; 
+}
+
+
+
+
+.movie1 {
+    height: 250px;
+    width: 180px;
+    background-image: url("pic1.jpg");
+    background-size: cover;}
+
+.movie2 {
+    height: 250px;
+    width: 180px;
+    background-image: url("pic2.jpg");
+    background-size: cover;
+}
+.movie3 {
+    height: 250px;
+    width: 180px;
+    background-image: url("pic3.jpg");
+    
+    background-size: cover;
+}
+.movie4 {
+    height: 250px;
+    width: 180px;
+    background-image: url("pic4.jpg");
+    background-size: cover;
+}
+.movie5 {
+    height: 250px;
+    width: 180px;
+    background-image: url("pic5.jpg");
+    background-size: cover;
+}
+.movie6 {
+    height: 250px;
+    width: 180px;
+    background-image: url("pic6.jpg");
+    background-size: cover;
+}
