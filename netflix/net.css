@@ -178,3 +178,37 @@
     background-image: url("pic6.jpg");
     background-size: cover;
 }
+.boxes {
+    display:flex;
+    gap: 10px;
+    margin-left: 200px;
+}
+.join h2 {
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+.box1 {
+    height: 275px;
+    width: 300px;
+    background-color: #1c1a32;
+    border-radius: 3px;
+    display:block;
+    justify-content:center;
+    align-items: center;
+    
+
+    
+}
+.txt1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+
+   
+}
+.compu {
+    height: 80px;
+    width: 80px;
+    background-image: url( "comp1.png");
+    background-size: contain;
+
+}
