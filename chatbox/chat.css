@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+
+}
+
+.chat-popup {
+
+    width: 600px;
+    background-color: aliceblue;
+    border-radius: 15px;
+
+
+}
+
+.chatbox-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5350c4;
+    color: black;
+    padding: 15px 20px;
+    font-size: 30px;
+}
+
+.arrow {
+    background-color: white;
+
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.chat-body {
+    padding: 25px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 700px;
+    overflow-y: auto;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+}
+
+.bot-msg {
+    display: flex;
+    margin-right: 20px;
+
+    gap: 40px;
+
+}
+
+.bot-logo {
+    height: 35px;
+    width: 35px;
+    fill: white;
+    padding: 10px;
+    align-self: flex-end;
+    flex-shrink: 0;
+    margin-bottom: 2px;
+    background-color: #5350C4;
+    border-radius: 50%;
+
+}
+
+.msg-txt {
+    width: 75%;
+    background-color: #f2f2ff;
+    border-radius: 16px;
+    padding: 16px 20px;
+    font-size: 20px;
+
+}
+
+.user- {
+    width: 75%;
+    background-color: #f2f2ff;
+    border-radius: 16px;
+    padding: 16px 20px;
+
+}
+
+.user-msg {
+    display: flex;
+
+
+    flex-direction: column;
+    align-items: flex-end;
+
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.chat-body .user-msg .msg-txt {
+    background-color: #5350C4;
+    border-radius: 16px;
+}
+
+.chat-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.msg-input {
+    width: 75%;
+    border-radius: 16px;
+    border: 2px solid black;
+
+
+    font-size: 18px;
+    padding: 5px;
+   
+    outline: none;
+    
+    
+   
+    resize: none;
+
+
+}
+
+.butns {
+    gap: 10px;
+
+
+}
+
+.attach-file {
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+}
+
+.enter {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+
+
+}
+
+.text-area ::placeholder {
+    font-weight: 500;
+}

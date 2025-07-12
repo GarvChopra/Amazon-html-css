@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>For You ❤️</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-image: url("bag5.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+
+        .card {
+            background-color: rgba(255, 182, 193, 0.3);
+            backdrop-filter: blur(8px);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            max-width: 500px;
+            animation: fadeIn 2s ease forwards;
+            opacity: 0;
+        }
+
+        .gif-container {
+            width: 300px;
+            height: auto;
+            margin: 0 auto 20px;
+            animation: popIn 1s ease forwards;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-style: italic;
+            animation: fadeIn 3s ease forwards;
+            opacity: 0;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            animation: fadeIn 4s ease forwards;
+            opacity: 0;
+        }
+
+        .btn {
+            background-color: #ffb6c1;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: 0.3s ease;
+            text-decoration: none;
+            color: #000;
+        }
+
+        .btn:hover {
+            background-color: #ffc1d1;
+            transform: scale(1.1);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes popIn {
+            from {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .gif-container {
+                width: 90%;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="gif-container">
+            <div class="tenor-gif-embed" data-postid="22772404" data-share-method="host" data-aspect-ratio="1.26984"
+                data-width="100%"><a
+                    href="https://tenor.com/view/iloveyouheroilyilysmhugfrommizu-gif-22772404">Iloveyouheroilyilysmhugfrommizu
+                    GIF</a>from <a
+                    href="https://tenor.com/search/iloveyouheroilyilysmhugfrommizu-gifs">Iloveyouheroilyilysmhugfrommizu
+                    GIFs</a></div>
+            <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        </div>
+        <h1>Will you be my forever? 💖</h1>
+        <p>You make my world brighter, my heart warmer, and every moment sweeter. 🌸</p>
+        <a href="end.html" class="btn">Aww 🥰</a>
+    </div>
+</body>
+
+</html>
